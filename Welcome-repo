@@ -1,0 +1,9 @@
+This repo contains a EFI for installing the BEFORE and AFTER of the macOS install for Sonoma (macOS 14)
+the first Boot/Install EFI contains Opencore version 0.8.8, which only DMG loads the first phase (ONLINE INSTALL PLEASE USE ETHERNET AS WIFI IS NOT ENABLED)
+
+the PostInstall EFI contains opencore V0.9.9 as of the last sucessful boot, the minimum opencore version needed to boot macOS Ventura (13) is 0.8.4 and the version needed to boot macOS Sonoma is 0.9.4 (or higher preferably)
+
+the SMBIOS for those using this repo as a reference point should stick to MacBookPro15,1 (please double check the spelling as i may have typed it wrong and macOS is case-sensitive)
+
+also shoutout to the crew of this fantastic repo for supporting the WiFi cards, as well as linking a guide to fix iServices
+https://github.com/OpenIntelWireless/itlwm
